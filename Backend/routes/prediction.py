@@ -2,19 +2,19 @@ import pandas as pd
 
 from fastapi import APIRouter
 
-from Backend.schemas.student_schema import StudentInput
+from schemas.student_schema import StudentInput
 
-from Backend.services.predictor import predict_student
+from services.predictor import predict_student
 
 router = APIRouter()
 
 @router.post("/predict")
 def predict(student: StudentInput):
 
-    df = pd.DataFrame([student.dict()])
+    data = pd.DataFrame([student.model_dump()])
 
-    result = predict_student(df)
+    prediction = predict_student(data)
 
     return {
-        "Predicted Grade": result
+        "Predicted Grade": prediction
     }

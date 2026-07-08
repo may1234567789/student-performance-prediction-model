@@ -1,6 +1,14 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+from routes.prediction import router
+
+app = FastAPI(
+    title="Student Performance Prediction API",
+    version="1.0.0"
+)
+
+app.include_router(router)
+
 
 @app.get("/")
 def home():
