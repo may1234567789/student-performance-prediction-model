@@ -4,7 +4,6 @@ import Navbar from "../src/components/components/Navbar";
 
 import Home from "../src/pages/Home";
 import Prediction from "../src/pages/Prediction";
-import Dashboard from "../src/pages/Dashboard";
 import About from "../src/pages/About";
 import NotFound from "../src/pages/NotFound";
 
@@ -21,11 +20,6 @@ function App() {
                 <Route
                     path="/predict"
                     element={<Prediction />}
-                />
-
-                <Route
-                    path="/dashboard"
-                    element={<Dashboard />}
                 />
 
                 <Route

@@ -37,10 +37,10 @@ function Hero() {
                         </Link>
 
                         <Link
-                            to="/dashboard"
+                            to="/about"
                             className="border border-white px-7 py-3 rounded-lg hover:bg-white hover:text-blue-700 transition"
                         >
-                            View Dashboard
+                            About
                         </Link>
 
                     </div>

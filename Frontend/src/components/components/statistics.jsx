@@ -27,11 +27,6 @@ function Statistics() {
                         title="ML Models"
                     />
 
-                    <StatCard
-                        value="24/7"
-                        title="Prediction"
-                    />
-
                 </div>
 
             </div>

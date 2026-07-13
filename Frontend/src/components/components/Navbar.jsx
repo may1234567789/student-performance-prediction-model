@@ -26,13 +26,6 @@ function Navbar() {
                     </Link>
 
                     <Link
-                        to="/dashboard"
-                        className="hover:text-yellow-300 transition"
-                    >
-                        Dashboard
-                    </Link>
-
-                    <Link
                         to="/about"
                         className="hover:text-yellow-300 transition"
                     >
