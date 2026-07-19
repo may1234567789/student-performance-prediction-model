@@ -10,7 +10,7 @@ function Statistics() {
                     Project Statistics
                 </h2>
 
-                <div className="grid md:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-3 gap-8">
 
                     <StatCard
                         value="10K+"

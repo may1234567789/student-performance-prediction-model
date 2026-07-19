@@ -2,12 +2,9 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <nav className="bg-blue-600 text-white shadow-md">
-            <div className="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
-
-                <h1 className="text-2xl font-bold">
-                    Student Predictor
-                </h1>
+        <nav className="fixed top-0 left-0 w-full bg-blue-600 text-white z-50 shadow-lg">
+            <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+                <h1 className="text-2xl font-bold">Student Predictor</h1>
 
                 <div className="flex gap-8 text-lg">
 

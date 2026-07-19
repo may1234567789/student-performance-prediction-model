@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 function Hero() {
     return (
         <section className="bg-linear-to-r from-blue-700 via-blue-600 to-indigo-700 text-white">
@@ -52,7 +53,7 @@ function Hero() {
                 <div className="md:w-1/2 flex justify-center">
 
                     <img
-                        src="https://undraw.co/api/illustrations/educator.svg"
+                        src="/herosection1.png"
                         alt="Student Illustration"
                         className="w-full max-w-lg"
                     />
